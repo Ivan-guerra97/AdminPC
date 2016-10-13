@@ -1,6 +1,6 @@
 ﻿namespace WinFormApp
 {
-    partial class Form1
+    partial class AdminPC
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminPC));
+            this.SuspendLayout();
+            // 
+            // AdminPC
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(939, 512);
+            this.Name = "AdminPC";
+            this.Text = "AdminPC";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-
