@@ -29,106 +29,107 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Registro));
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lbRegisNomb = new System.Windows.Forms.Label();
+            this.lblRegisApe = new System.Windows.Forms.Label();
+            this.lblCorreo = new System.Windows.Forms.Label();
+            this.lblConfCorreo = new System.Windows.Forms.Label();
+            this.lblPasw = new System.Windows.Forms.Label();
+            this.lblConfPasw = new System.Windows.Forms.Label();
+            this.lblMatri = new System.Windows.Forms.Label();
+            this.txtRegisNomb = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txtCorreo = new System.Windows.Forms.TextBox();
+            this.txtConfCorreo = new System.Windows.Forms.TextBox();
+            this.txtPasw = new System.Windows.Forms.TextBox();
+            this.txtConfPasw = new System.Windows.Forms.TextBox();
+            this.txtMatri = new System.Windows.Forms.TextBox();
+            this.btnRegistro = new System.Windows.Forms.Button();
+            this.btnRegresar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // lbRegisNomb
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(123, 53);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Nombre:";
+            this.lbRegisNomb.AutoSize = true;
+            this.lbRegisNomb.BackColor = System.Drawing.Color.Transparent;
+            this.lbRegisNomb.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbRegisNomb.Location = new System.Drawing.Point(123, 53);
+            this.lbRegisNomb.Name = "lbRegisNomb";
+            this.lbRegisNomb.Size = new System.Drawing.Size(67, 16);
+            this.lbRegisNomb.TabIndex = 0;
+            this.lbRegisNomb.Text = "Nombre:";
             // 
-            // label2
+            // lblRegisApe
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(112, 99);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 16);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Apellidos:";
+            this.lblRegisApe.AutoSize = true;
+            this.lblRegisApe.BackColor = System.Drawing.Color.Transparent;
+            this.lblRegisApe.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRegisApe.Location = new System.Drawing.Point(112, 99);
+            this.lblRegisApe.Name = "lblRegisApe";
+            this.lblRegisApe.Size = new System.Drawing.Size(78, 16);
+            this.lblRegisApe.TabIndex = 1;
+            this.lblRegisApe.Text = "Apellidos:";
             // 
-            // label3
+            // lblCorreo
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(131, 150);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 16);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Correo:";
+            this.lblCorreo.AutoSize = true;
+            this.lblCorreo.BackColor = System.Drawing.Color.Transparent;
+            this.lblCorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCorreo.Location = new System.Drawing.Point(131, 150);
+            this.lblCorreo.Name = "lblCorreo";
+            this.lblCorreo.Size = new System.Drawing.Size(59, 16);
+            this.lblCorreo.TabIndex = 2;
+            this.lblCorreo.Text = "Correo:";
             // 
-            // label4
+            // lblConfCorreo
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(46, 202);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(144, 16);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Confirmar el correo:";
+            this.lblConfCorreo.AutoSize = true;
+            this.lblConfCorreo.BackColor = System.Drawing.Color.Transparent;
+            this.lblConfCorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConfCorreo.Location = new System.Drawing.Point(46, 202);
+            this.lblConfCorreo.Name = "lblConfCorreo";
+            this.lblConfCorreo.Size = new System.Drawing.Size(144, 16);
+            this.lblConfCorreo.TabIndex = 3;
+            this.lblConfCorreo.Text = "Confirmar el correo:";
             // 
-            // label5
+            // lblPasw
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(99, 257);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(91, 16);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Contraseña:";
+            this.lblPasw.AutoSize = true;
+            this.lblPasw.BackColor = System.Drawing.Color.Transparent;
+            this.lblPasw.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPasw.Location = new System.Drawing.Point(99, 257);
+            this.lblPasw.Name = "lblPasw";
+            this.lblPasw.Size = new System.Drawing.Size(91, 16);
+            this.lblPasw.TabIndex = 4;
+            this.lblPasw.Text = "Contraseña:";
             // 
-            // label6
+            // lblConfPasw
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(29, 313);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(161, 16);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Confirmar Contraseña:";
+            this.lblConfPasw.AutoSize = true;
+            this.lblConfPasw.BackColor = System.Drawing.Color.Transparent;
+            this.lblConfPasw.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblConfPasw.Location = new System.Drawing.Point(29, 313);
+            this.lblConfPasw.Name = "lblConfPasw";
+            this.lblConfPasw.Size = new System.Drawing.Size(161, 16);
+            this.lblConfPasw.TabIndex = 5;
+            this.lblConfPasw.Text = "Confirmar Contraseña:";
             // 
-            // label7
+            // lblMatri
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(115, 366);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(75, 16);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Matricula:";
+            this.lblMatri.AutoSize = true;
+            this.lblMatri.BackColor = System.Drawing.Color.Transparent;
+            this.lblMatri.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMatri.Location = new System.Drawing.Point(115, 366);
+            this.lblMatri.Name = "lblMatri";
+            this.lblMatri.Size = new System.Drawing.Size(75, 16);
+            this.lblMatri.TabIndex = 6;
+            this.lblMatri.Text = "Matricula:";
             // 
-            // textBox1
+            // txtRegisNomb
             // 
-            this.textBox1.Location = new System.Drawing.Point(205, 49);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(211, 20);
-            this.textBox1.TabIndex = 7;
+            this.txtRegisNomb.Location = new System.Drawing.Point(205, 49);
+            this.txtRegisNomb.Name = "txtRegisNomb";
+            this.txtRegisNomb.Size = new System.Drawing.Size(211, 20);
+            this.txtRegisNomb.TabIndex = 7;
             // 
             // textBox2
             // 
@@ -137,49 +138,59 @@
             this.textBox2.Size = new System.Drawing.Size(211, 20);
             this.textBox2.TabIndex = 8;
             // 
-            // textBox3
+            // txtCorreo
             // 
-            this.textBox3.Location = new System.Drawing.Point(205, 146);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(211, 20);
-            this.textBox3.TabIndex = 9;
+            this.txtCorreo.Location = new System.Drawing.Point(205, 146);
+            this.txtCorreo.Name = "txtCorreo";
+            this.txtCorreo.Size = new System.Drawing.Size(211, 20);
+            this.txtCorreo.TabIndex = 9;
             // 
-            // textBox4
+            // txtConfCorreo
             // 
-            this.textBox4.Location = new System.Drawing.Point(205, 198);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(211, 20);
-            this.textBox4.TabIndex = 10;
+            this.txtConfCorreo.Location = new System.Drawing.Point(205, 198);
+            this.txtConfCorreo.Name = "txtConfCorreo";
+            this.txtConfCorreo.Size = new System.Drawing.Size(211, 20);
+            this.txtConfCorreo.TabIndex = 10;
             // 
-            // textBox5
+            // txtPasw
             // 
-            this.textBox5.Location = new System.Drawing.Point(205, 253);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(211, 20);
-            this.textBox5.TabIndex = 11;
+            this.txtPasw.Location = new System.Drawing.Point(205, 253);
+            this.txtPasw.Name = "txtPasw";
+            this.txtPasw.Size = new System.Drawing.Size(211, 20);
+            this.txtPasw.TabIndex = 11;
+            this.txtPasw.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
-            // textBox6
+            // txtConfPasw
             // 
-            this.textBox6.Location = new System.Drawing.Point(205, 309);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(211, 20);
-            this.textBox6.TabIndex = 12;
+            this.txtConfPasw.Location = new System.Drawing.Point(205, 309);
+            this.txtConfPasw.Name = "txtConfPasw";
+            this.txtConfPasw.Size = new System.Drawing.Size(211, 20);
+            this.txtConfPasw.TabIndex = 12;
             // 
-            // textBox7
+            // txtMatri
             // 
-            this.textBox7.Location = new System.Drawing.Point(205, 366);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(211, 20);
-            this.textBox7.TabIndex = 13;
+            this.txtMatri.Location = new System.Drawing.Point(205, 366);
+            this.txtMatri.Name = "txtMatri";
+            this.txtMatri.Size = new System.Drawing.Size(211, 20);
+            this.txtMatri.TabIndex = 13;
             // 
-            // button1
+            // btnRegistro
             // 
-            this.button1.Location = new System.Drawing.Point(181, 439);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Registrar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnRegistro.Location = new System.Drawing.Point(83, 439);
+            this.btnRegistro.Name = "btnRegistro";
+            this.btnRegistro.Size = new System.Drawing.Size(141, 44);
+            this.btnRegistro.TabIndex = 14;
+            this.btnRegistro.Text = "Registrar";
+            this.btnRegistro.UseVisualStyleBackColor = true;
+            // 
+            // btnRegresar
+            // 
+            this.btnRegresar.Location = new System.Drawing.Point(250, 439);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(141, 44);
+            this.btnRegresar.TabIndex = 14;
+            this.btnRegresar.Text = "Regresar";
+            this.btnRegresar.UseVisualStyleBackColor = true;
             // 
             // Registro
             // 
@@ -188,22 +199,24 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(436, 531);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.btnRegresar);
+            this.Controls.Add(this.btnRegistro);
+            this.Controls.Add(this.txtMatri);
+            this.Controls.Add(this.txtConfPasw);
+            this.Controls.Add(this.txtPasw);
+            this.Controls.Add(this.txtConfCorreo);
+            this.Controls.Add(this.txtCorreo);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtRegisNomb);
+            this.Controls.Add(this.lblMatri);
+            this.Controls.Add(this.lblConfPasw);
+            this.Controls.Add(this.lblPasw);
+            this.Controls.Add(this.lblConfCorreo);
+            this.Controls.Add(this.lblCorreo);
+            this.Controls.Add(this.lblRegisApe);
+            this.Controls.Add(this.lbRegisNomb);
             this.Name = "Registro";
+            this.ShowIcon = false;
             this.Text = "Registro";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -212,20 +225,21 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lbRegisNomb;
+        private System.Windows.Forms.Label lblRegisApe;
+        private System.Windows.Forms.Label lblCorreo;
+        private System.Windows.Forms.Label lblConfCorreo;
+        private System.Windows.Forms.Label lblPasw;
+        private System.Windows.Forms.Label lblConfPasw;
+        private System.Windows.Forms.Label lblMatri;
+        private System.Windows.Forms.TextBox txtRegisNomb;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtCorreo;
+        private System.Windows.Forms.TextBox txtConfCorreo;
+        private System.Windows.Forms.TextBox txtPasw;
+        private System.Windows.Forms.TextBox txtConfPasw;
+        private System.Windows.Forms.TextBox txtMatri;
+        private System.Windows.Forms.Button btnRegistro;
+        private System.Windows.Forms.Button btnRegresar;
     }
 }
