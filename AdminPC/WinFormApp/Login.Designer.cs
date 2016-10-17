@@ -102,7 +102,7 @@
             this.lnkContra.BackColor = System.Drawing.Color.Transparent;
             this.lnkContra.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lnkContra.LinkColor = System.Drawing.Color.Black;
-            this.lnkContra.Location = new System.Drawing.Point(357, 238);
+            this.lnkContra.Location = new System.Drawing.Point(422, 248);
             this.lnkContra.Name = "lnkContra";
             this.lnkContra.Size = new System.Drawing.Size(186, 16);
             this.lnkContra.TabIndex = 6;
