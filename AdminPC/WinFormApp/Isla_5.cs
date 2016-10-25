@@ -16,5 +16,16 @@ namespace WinFormApp
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AdminPC AdminPC = new AdminPC();
+            AdminPC.ShowDialog();
+            if (AdminPC.DialogResult == DialogResult.Yes)
+            {
+
+            }
+        }
     }
 }

@@ -29,102 +29,34 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminPC));
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel4 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label2 = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.islasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.isla2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.isla3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.isla4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportarToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.isla5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportarToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.programasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.verProgramasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.groupBox1.Controls.Add(this.linkLabel5);
-            this.groupBox1.Controls.Add(this.linkLabel4);
-            this.groupBox1.Controls.Add(this.linkLabel3);
-            this.groupBox1.Controls.Add(this.linkLabel2);
-            this.groupBox1.Controls.Add(this.linkLabel1);
-            this.groupBox1.Location = new System.Drawing.Point(25, 25);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(149, 458);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(34, 42);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(52, 24);
-            this.linkLabel1.TabIndex = 0;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Isla 1";
-            // 
-            // linkLabel2
-            // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel2.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel2.Location = new System.Drawing.Point(34, 132);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(52, 24);
-            this.linkLabel2.TabIndex = 1;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "Isla 2";
-            // 
-            // linkLabel3
-            // 
-            this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel3.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel3.Location = new System.Drawing.Point(34, 215);
-            this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(52, 24);
-            this.linkLabel3.TabIndex = 2;
-            this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "Isla 3";
-            // 
-            // linkLabel4
-            // 
-            this.linkLabel4.AutoSize = true;
-            this.linkLabel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel4.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel4.Location = new System.Drawing.Point(34, 303);
-            this.linkLabel4.Name = "linkLabel4";
-            this.linkLabel4.Size = new System.Drawing.Size(52, 24);
-            this.linkLabel4.TabIndex = 3;
-            this.linkLabel4.TabStop = true;
-            this.linkLabel4.Text = "Isla 4";
-            // 
-            // linkLabel5
-            // 
-            this.linkLabel5.AutoSize = true;
-            this.linkLabel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel5.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel5.Location = new System.Drawing.Point(34, 389);
-            this.linkLabel5.Name = "linkLabel5";
-            this.linkLabel5.Size = new System.Drawing.Size(52, 24);
-            this.linkLabel5.TabIndex = 4;
-            this.linkLabel5.TabStop = true;
-            this.linkLabel5.Text = "Isla 5";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(202, 25);
+            this.label1.Location = new System.Drawing.Point(12, 48);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(259, 18);
             this.label1.TabIndex = 1;
@@ -132,15 +64,15 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(205, 67);
+            this.textBox1.Location = new System.Drawing.Point(15, 80);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(287, 285);
+            this.textBox1.Size = new System.Drawing.Size(382, 236);
             this.textBox1.TabIndex = 2;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(318, 471);
+            this.button1.Location = new System.Drawing.Point(171, 415);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 3;
@@ -149,7 +81,7 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(205, 414);
+            this.dateTimePicker1.Location = new System.Drawing.Point(12, 367);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 4;
@@ -158,11 +90,116 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(202, 383);
+            this.label2.Location = new System.Drawing.Point(12, 338);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 13);
             this.label2.TabIndex = 5;
             this.label2.Text = "Fecha:";
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.islasToolStripMenuItem,
+            this.isla2ToolStripMenuItem,
+            this.isla3ToolStripMenuItem,
+            this.isla4ToolStripMenuItem,
+            this.isla5ToolStripMenuItem,
+            this.programasToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(416, 24);
+            this.menuStrip1.TabIndex = 7;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // islasToolStripMenuItem
+            // 
+            this.islasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.reportarToolStripMenuItem});
+            this.islasToolStripMenuItem.Name = "islasToolStripMenuItem";
+            this.islasToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
+            this.islasToolStripMenuItem.Text = "Isla 1";
+            this.islasToolStripMenuItem.Click += new System.EventHandler(this.islasToolStripMenuItem_Click);
+            // 
+            // reportarToolStripMenuItem
+            // 
+            this.reportarToolStripMenuItem.Name = "reportarToolStripMenuItem";
+            this.reportarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.reportarToolStripMenuItem.Text = "Reportar";
+            this.reportarToolStripMenuItem.Click += new System.EventHandler(this.reportarToolStripMenuItem_Click);
+            // 
+            // isla2ToolStripMenuItem
+            // 
+            this.isla2ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.reportarToolStripMenuItem1});
+            this.isla2ToolStripMenuItem.Name = "isla2ToolStripMenuItem";
+            this.isla2ToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
+            this.isla2ToolStripMenuItem.Text = "Isla 2";
+            // 
+            // reportarToolStripMenuItem1
+            // 
+            this.reportarToolStripMenuItem1.Name = "reportarToolStripMenuItem1";
+            this.reportarToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.reportarToolStripMenuItem1.Text = "Reportar";
+            this.reportarToolStripMenuItem1.Click += new System.EventHandler(this.reportarToolStripMenuItem1_Click);
+            // 
+            // isla3ToolStripMenuItem
+            // 
+            this.isla3ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.reportarToolStripMenuItem2});
+            this.isla3ToolStripMenuItem.Name = "isla3ToolStripMenuItem";
+            this.isla3ToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
+            this.isla3ToolStripMenuItem.Text = "Isla 3";
+            // 
+            // reportarToolStripMenuItem2
+            // 
+            this.reportarToolStripMenuItem2.Name = "reportarToolStripMenuItem2";
+            this.reportarToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
+            this.reportarToolStripMenuItem2.Text = "Reportar";
+            this.reportarToolStripMenuItem2.Click += new System.EventHandler(this.reportarToolStripMenuItem2_Click);
+            // 
+            // isla4ToolStripMenuItem
+            // 
+            this.isla4ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.reportarToolStripMenuItem3});
+            this.isla4ToolStripMenuItem.Name = "isla4ToolStripMenuItem";
+            this.isla4ToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
+            this.isla4ToolStripMenuItem.Text = "Isla 4";
+            // 
+            // reportarToolStripMenuItem3
+            // 
+            this.reportarToolStripMenuItem3.Name = "reportarToolStripMenuItem3";
+            this.reportarToolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
+            this.reportarToolStripMenuItem3.Text = "Reportar";
+            this.reportarToolStripMenuItem3.Click += new System.EventHandler(this.reportarToolStripMenuItem3_Click);
+            // 
+            // isla5ToolStripMenuItem
+            // 
+            this.isla5ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.reportarToolStripMenuItem4});
+            this.isla5ToolStripMenuItem.Name = "isla5ToolStripMenuItem";
+            this.isla5ToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
+            this.isla5ToolStripMenuItem.Text = "Isla 5";
+            // 
+            // reportarToolStripMenuItem4
+            // 
+            this.reportarToolStripMenuItem4.Name = "reportarToolStripMenuItem4";
+            this.reportarToolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.reportarToolStripMenuItem4.Text = "Reportar";
+            this.reportarToolStripMenuItem4.Click += new System.EventHandler(this.reportarToolStripMenuItem4_Click);
+            // 
+            // programasToolStripMenuItem
+            // 
+            this.programasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.verProgramasToolStripMenuItem});
+            this.programasToolStripMenuItem.Name = "programasToolStripMenuItem";
+            this.programasToolStripMenuItem.Size = new System.Drawing.Size(76, 20);
+            this.programasToolStripMenuItem.Text = "Programas";
+            // 
+            // verProgramasToolStripMenuItem
+            // 
+            this.verProgramasToolStripMenuItem.Name = "verProgramasToolStripMenuItem";
+            this.verProgramasToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
+            this.verProgramasToolStripMenuItem.Text = "Ver programas";
             // 
             // AdminPC
             // 
@@ -170,35 +207,45 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(524, 522);
+            this.ClientSize = new System.Drawing.Size(416, 469);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "AdminPC";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminPC";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.Load += new System.EventHandler(this.AdminPC_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.LinkLabel linkLabel5;
-        private System.Windows.Forms.LinkLabel linkLabel4;
-        private System.Windows.Forms.LinkLabel linkLabel3;
-        private System.Windows.Forms.LinkLabel linkLabel2;
-        private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem islasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reportarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem isla2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reportarToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem isla3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reportarToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem isla4ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reportarToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem isla5ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reportarToolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem programasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem verProgramasToolStripMenuItem;
     }
 }

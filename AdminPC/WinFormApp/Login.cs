@@ -16,5 +16,36 @@ namespace WinFormApp
         {
             InitializeComponent();
         }
+
+        private void btnIngre_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AdminPC AdminPC = new AdminPC();
+            AdminPC.ShowDialog();
+            if (AdminPC.DialogResult == DialogResult.Yes)
+            {
+               
+            }
+
+            
+        }
+
+        private void btnRegis_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Registro Registro = new Registro();
+            Registro.ShowDialog();
+            if (Registro.DialogResult == DialogResult.Yes)
+            {
+
+            }
+
+
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+            this.btnRegis.DialogResult = System.Windows.Forms.DialogResult.Yes;
+        }
     }
 }

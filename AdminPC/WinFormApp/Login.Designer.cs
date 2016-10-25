@@ -85,6 +85,7 @@
             this.btnRegis.TabIndex = 4;
             this.btnRegis.Text = "Registrar";
             this.btnRegis.UseVisualStyleBackColor = true;
+            this.btnRegis.Click += new System.EventHandler(this.btnRegis_Click);
             // 
             // btnIngre
             // 
@@ -95,6 +96,7 @@
             this.btnIngre.TabIndex = 5;
             this.btnIngre.Text = "Ingresar";
             this.btnIngre.UseVisualStyleBackColor = true;
+            this.btnIngre.Click += new System.EventHandler(this.btnIngre_Click);
             // 
             // lnkContra
             // 
@@ -135,9 +137,12 @@
             this.Controls.Add(this.txtUsr);
             this.Controls.Add(this.lbPasw);
             this.Controls.Add(this.lbUsr);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.logo_adpc)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

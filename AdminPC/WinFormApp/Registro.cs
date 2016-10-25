@@ -21,5 +21,34 @@ namespace WinFormApp
         {
 
         }
+
+        private void Registro_Load(object sender, EventArgs e)
+        {
+            this.btnRegistro.DialogResult = System.Windows.Forms.DialogResult.Yes;
+        }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login Login = new Login();
+            Login.ShowDialog();
+            if (Login.DialogResult == DialogResult.Yes)
+            {
+
+            }
+
+        }
+
+        private void btnRegistro_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login Login = new Login();
+            Login.ShowDialog();
+            if (Login.DialogResult == DialogResult.Yes)
+            {
+
+            }
+
+        }
     }
 }
