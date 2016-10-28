@@ -83,5 +83,16 @@ namespace WinFormApp
         {
 
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            Login Login = new Login();
+            Login.ShowDialog();
+            if (Login.DialogResult == DialogResult.Yes)
+            {
+
+            }
+        }
     }
 }

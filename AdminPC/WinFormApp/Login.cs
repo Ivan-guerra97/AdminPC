@@ -19,13 +19,42 @@ namespace WinFormApp
 
         private void btnIngre_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            AdminPC AdminPC = new AdminPC();
-            AdminPC.ShowDialog();
-            if (AdminPC.DialogResult == DialogResult.Yes)
+
+            if ((txtUsr.Text == "Ivan") && (txtPasw.Text == "12345678"))
             {
-               
-            }
+                MessageBox.Show("Bienvenido Ivan");
+                this.Hide();
+                AdminPC AdminPC = new AdminPC();
+                AdminPC.ShowDialog();
+                if (AdminPC.DialogResult == DialogResult.Yes)
+                {
+
+                }
+                
+                }
+                /*else
+                {
+                    MessageBox.Show("Datos Erroneos Vuelve a intentar");
+                }*/
+
+                if((txtUsr.Text=="Horacio") && (txtPasw.Text == "123456"))
+                 {
+                     MessageBox.Show("Bienvenido Maestro Horacio");
+                     this.Hide();
+                     MenuAdmin MenuAdmin = new MenuAdmin();
+                     MenuAdmin.ShowDialog();
+                     if (MenuAdmin.DialogResult == DialogResult.Yes)
+                     {
+
+                     }
+                 }
+                 else
+                 {
+                     MessageBox.Show("Datos erroneos vuelve a intentar");
+                 }
+
+
+
 
             
         }
