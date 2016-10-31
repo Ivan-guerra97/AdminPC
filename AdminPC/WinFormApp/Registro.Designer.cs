@@ -45,6 +45,7 @@
             this.txtMatri = new System.Windows.Forms.TextBox();
             this.btnRegistro = new System.Windows.Forms.Button();
             this.btnRegresar = new System.Windows.Forms.Button();
+            this.chkAdmin = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // lbRegisNomb
@@ -194,6 +195,17 @@
             this.btnRegresar.UseVisualStyleBackColor = true;
             this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
             // 
+            // chkAdmin
+            // 
+            this.chkAdmin.AutoSize = true;
+            this.chkAdmin.BackColor = System.Drawing.Color.Transparent;
+            this.chkAdmin.Location = new System.Drawing.Point(205, 406);
+            this.chkAdmin.Name = "chkAdmin";
+            this.chkAdmin.Size = new System.Drawing.Size(154, 17);
+            this.chkAdmin.TabIndex = 15;
+            this.chkAdmin.Text = "¿Usted será administrador?";
+            this.chkAdmin.UseVisualStyleBackColor = false;
+            // 
             // Registro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -201,6 +213,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(436, 531);
+            this.Controls.Add(this.chkAdmin);
             this.Controls.Add(this.btnRegresar);
             this.Controls.Add(this.btnRegistro);
             this.Controls.Add(this.txtMatri);
@@ -246,5 +259,6 @@
         private System.Windows.Forms.TextBox txtMatri;
         private System.Windows.Forms.Button btnRegistro;
         private System.Windows.Forms.Button btnRegresar;
+        private System.Windows.Forms.CheckBox chkAdmin;
     }
 }
