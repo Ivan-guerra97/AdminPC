@@ -47,8 +47,8 @@
             this.reportarToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.programasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.verProgramasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -71,6 +71,7 @@
             this.button1.TabIndex = 3;
             this.button1.Text = "Enviar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dateTimePicker1
             // 
@@ -116,7 +117,7 @@
             // reportarToolStripMenuItem
             // 
             this.reportarToolStripMenuItem.Name = "reportarToolStripMenuItem";
-            this.reportarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.reportarToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.reportarToolStripMenuItem.Text = "Reportar";
             this.reportarToolStripMenuItem.Click += new System.EventHandler(this.reportarToolStripMenuItem_Click);
             // 
@@ -194,14 +195,6 @@
             this.verProgramasToolStripMenuItem.Size = new System.Drawing.Size(151, 22);
             this.verProgramasToolStripMenuItem.Text = "Ver programas";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(15, 80);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(382, 236);
-            this.textBox1.TabIndex = 2;
-            // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
@@ -214,6 +207,14 @@
             this.linkLabel1.Text = "Salir";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(18, 81);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(385, 248);
+            this.richTextBox1.TabIndex = 9;
+            this.richTextBox1.Text = "";
+            // 
             // AdminPC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -221,11 +222,11 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(416, 469);
+            this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -260,7 +261,7 @@
         private System.Windows.Forms.ToolStripMenuItem reportarToolStripMenuItem4;
         private System.Windows.Forms.ToolStripMenuItem programasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem verProgramasToolStripMenuItem;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
