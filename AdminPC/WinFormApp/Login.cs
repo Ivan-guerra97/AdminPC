@@ -74,7 +74,15 @@ namespace WinFormApp
 
         private void Login_Load(object sender, EventArgs e)
         {
+           
             this.btnRegis.DialogResult = System.Windows.Forms.DialogResult.Yes;
+           
+
+        }
+
+        private void txtPasw_TextChanged(object sender, EventArgs e)
+        {
+            txtPasw.PasswordChar = '*';
         }
     }
 }

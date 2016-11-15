@@ -75,6 +75,8 @@
             this.txtPasw.Name = "txtPasw";
             this.txtPasw.Size = new System.Drawing.Size(212, 20);
             this.txtPasw.TabIndex = 3;
+            this.txtPasw.UseSystemPasswordChar = true;
+            this.txtPasw.TextChanged += new System.EventHandler(this.txtPasw_TextChanged);
             // 
             // btnRegis
             // 
